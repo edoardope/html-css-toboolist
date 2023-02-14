@@ -37,12 +37,12 @@ body{
 /* id */
 
 #menu{
-    margin: 8% 20% 3px;
+    margin: 5% 30% 3px;
     background-color: white;
     border-radius: 3px;
-    padding-top: 2%;
-    padding-left: 4%;
-    padding-bottom: 1%;
+    padding-top: 25px;
+    padding-left: 3%;
+    padding-bottom: 15px;
     padding-right: 0%;
     
 }
@@ -70,11 +70,11 @@ body{
 
 #cont-princ{
     background-color: white;
-    margin: 0% 20%;
+    margin: 0% 30%;
     border-radius: 3px;
-    padding-top: 5%;
-    padding-left: 4%;
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-bottom: 20%;
 }
 
 /* class */
