@@ -1,3 +1,5 @@
+/* reset */
+
 *{
     margin: 0;
     padding: 0;
@@ -16,34 +18,23 @@ table{
     border-spacing: 0;
 }
 
+/* font */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* sezioni principali */
 
 header {
     width: 100%;
     background-color: white;
 }
-  
-  .logo {
-    display: inline-block;
-    vertical-align: middle;
-    height: 50px;
-    margin-top: 1%;
-    margin-left: 2%;
-    margin-bottom: 1%;
-  }
-  
-  .logo-text {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 34px;
-    margin-left: 10px;
-    font-family: 'Roboto', sans-serif;
-  }
 
 body{
     background-color: rgb(179, 177, 177);
 
 }
+
+/* id */
 
 #menu{
     margin: 8% 20% 3px;
@@ -74,7 +65,7 @@ body{
     color: rgb(124, 124, 124);
     font-weight: bold;
     margin-left: 1%;
-     
+    
 }
 
 #cont-princ{
@@ -83,6 +74,25 @@ body{
     border-radius: 3px;
     padding-top: 5%;
     padding-left: 4%;
+}
+
+/* class */
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+  
+.logo-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 34px;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .sec-title::before{
