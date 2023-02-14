@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    margin-left: 1em;
+}
+
+table{
+    border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+header {
+    width: 100%;
+    background-color: white;
+    
+  }
+  
+  .logo {
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+  }
+  
+  .logo-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 34px;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+body{
+    background-color: rgb(179, 177, 177);
+
+}
+
+#menu{
+    margin: 8% 20% 3px;
+    background-color: white;
+    border-radius: 3px;
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-bottom: 1%;
+    padding-right: 0%;
+    
+}
+
+#bottone1{
+    padding: 7px;
+    border-radius: 8px;
+    border-color: rgb(27, 133, 255);
+    background-color: rgb(27, 133, 255);
+    color: white;
+    font-weight: bold;
+    border: none; 
+}
+
+#bottone2{
+    padding: 5px;
+    border-radius: 8px;
+    border-color: rgb(124, 124, 124);
+    background-color: white;
+    color: rgb(124, 124, 124);
+    font-weight: bold;
+    margin-left: 1%;
+     
+}
